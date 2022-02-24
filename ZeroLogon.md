@@ -27,3 +27,21 @@ Steps 4 and 3 are iterative; this is teh 1 in 256 chances
 - if the server calculates the same value, the cleient will re-verify and once mutual agreement is confirmed, they will agree on a session key. The session key is used to encrypt communications btw the client and the server, which means authentication is successful. From here, normal RPC communications can occur.
 
 
+### Proof of Concept
+CVE by Secura https://github.com/SecuraBV/CVE-2020-1472
+Download PoC from: https://raw.githubusercontent.com/SecuraBV/CVE-2020-1472/master/zerologon_tester.py
+Modified code for exploit: https://raw.githubusercontent.com/Sq00ky/Zero-Logon-Exploit/master/zeroLogon-NullPass.py
+Exploit a vulnerable Domain Controller
+
+
+
+
+
+
+
+
+
+
+
+
+
