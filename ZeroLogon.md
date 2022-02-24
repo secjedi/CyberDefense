@@ -39,6 +39,11 @@ To get domain name: <br />
 `└─$ crackmapexec smb 10.10.25.29 -u 'guest' -p ''                   1 ⨯`
 ![alt text](https://github.com/secjedi/CyberDefense/blob/main/Images/zerologon/4.png) <br />
 
+Running script against our vulnerable domain controller: <br />
+![alt text](https://github.com/secjedi/CyberDefense/blob/main/Images/zerologon/2.png) <br />
+
+
+
 
 
 
