@@ -30,7 +30,7 @@ Steps 4 and 3 are iterative; this is teh 1 in 256 chances
 ### Proof of Concept
 CVE by Secura https://github.com/SecuraBV/CVE-2020-1472
 Download PoC from: https://raw.githubusercontent.com/SecuraBV/CVE-2020-1472/master/zerologon_tester.py
-Modified code for exploit: https://raw.githubusercontent.com/Sq00ky/Zero-Logon-Exploit/master/zeroLogon-NullPass.py
+Modified code for exploit: https://raw.githubusercontent.com/Sq00ky/Zero-Logon-Exploit/master/zeroLogon-NullPass.py <br />
 Exploit a vulnerable Domain Controller
 
 
