@@ -31,8 +31,13 @@ Steps 4 and 3 are iterative; this is teh 1 in 256 chances
 CVE by Secura https://github.com/SecuraBV/CVE-2020-1472
 Download PoC from: https://raw.githubusercontent.com/SecuraBV/CVE-2020-1472/master/zerologon_tester.py
 Modified code for exploit: https://raw.githubusercontent.com/Sq00ky/Zero-Logon-Exploit/master/zeroLogon-NullPass.py <br />
-Exploit a vulnerable Domain Controller
-![alt text](https://github.com/secjedi/CyberDefense/blob/main/Images/zerologon/1.png)
+Exploit a vulnerable Domain Controller. <br />
+Usage: <br />
+![alt text](https://github.com/secjedi/CyberDefense/blob/main/Images/zerologon/1.png) <br />
+
+To get domain name: <br />
+`└─$ crackmapexec smb 10.10.25.29 -u 'guest' -p ''                   1 ⨯`
+![alt text](https://github.com/secjedi/CyberDefense/blob/main/Images/zerologon/4.png) <br />
 
 
 
