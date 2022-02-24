@@ -1,13 +1,13 @@
-Security Information and Event Management (SIEM)  is software that aggregates and analyzes information from several different sources across the entire infrastructure. So, instead of going through every security appliance's console, you get one centralized solution to find the alerts and react accordingly. This solution not only centralizes the information but also performs a deep analysis of the information to find hidden patterns and see if your company is under attack.
+**Security Information and Event Management (SIEM)**  is software that aggregates and analyzes information from several different sources across the entire infrastructure. So, instead of going through every security appliance's console, you get one centralized solution to find the alerts and react accordingly. This solution not only centralizes the information but also performs a deep analysis of the information to find hidden patterns and see if your company is under attack.
 Security Orchestration, Automation, and Response (SOAR) will help you with threat and vulnerability management, security incident response, and security operations automation by bringing order to the alerts your SIEM creates. It will give you more insight into what steps come next and what actions need immediate attention.
 First, we need to know what assets we are trying to monitor:
-Firewall
-Antivirus
-Routers and switches
-Intrusion prevention systems
-Databases
-Servers
-Workstations
+ - Firewall
+ - Antivirus
+ - Routers and switches
+ - Intrusion prevention systems
+ - Databases
+ - Servers
+ - Workstations
 
 Preparation: creating the strategy to tackle all the different incidents and attacks your organization may face. Some common activities performed at this stage are:
 Creating incident response policies and procedures
