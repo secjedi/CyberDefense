@@ -1,0 +1,10 @@
+**Some use-cases**
+Moving from onprem to cloud; you can write a script to copy your syslog of routers and firewall to s3 bucket using aws cli cp function
+We can also get cloud trails log that has been monitoring different API endpoint, choose S3 as the storage destination and ingest into sumo logic
+
+
+AWS services, lastpass, github, OKTA, Kubernetes. These are what can be ingested into cloudtrail
+Sometimes, we could try routers
+
+###Miniprojects
+
