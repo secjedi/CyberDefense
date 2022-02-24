@@ -13,5 +13,17 @@ Machine accounts hold system level privilege: <br />
 `Use Zero Logon to bypass authentication on the Domain Controller's Machine Account -> Run Secretsdump.py to dump credentials -> Crack/Pass Domain Admin Hashes -> ??? -> Profit`
 
 #### Analyzing the MS-NRPC Logon Process
+Lets see how Microsoft handles authentication to NRPC.
+**Steps**
+- Client creates NetrServerReqChallenge and sends it. The request contains the followig:
+    - The Domain Controller
+    - The Target device
+    - A nonce (could be 16 bytes if zer0)
+- The Server receives the NetrServerReqChallenge, generated its own nonce (server challenge) and sends the server challenge back
+- Client compute it's NetLogon Credentials with the Server Challenge provided. Uses the NetrServerAuthenticate3 method. (requires; A custom binding handle, an account name, a secure channel type, the coomputer name, the cleint cred string, negotiation flags). Mimikatz gives us a buck load of the fake creds here.
+- The server receives the NetrServerAuthenticate request and compute the same request itself using its known good values. If the results are good, the server sends the require info back to the client. 
+
+Steps 4 and 3 are iterative; this is teh 1 in 256 chances
+- if the server calculates the same value, the cleient will re-verify and once mutual agreement is confirmed, they will agree on a session key. The session key is used to encrypt communications btw the client and the server, which means authentication is successful. From here, normal RPC communications can occur.
 
 
