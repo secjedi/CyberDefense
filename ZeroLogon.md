@@ -32,6 +32,7 @@ CVE by Secura https://github.com/SecuraBV/CVE-2020-1472
 Download PoC from: https://raw.githubusercontent.com/SecuraBV/CVE-2020-1472/master/zerologon_tester.py
 Modified code for exploit: https://raw.githubusercontent.com/Sq00ky/Zero-Logon-Exploit/master/zeroLogon-NullPass.py <br />
 Exploit a vulnerable Domain Controller
+![alt text](https://github.com/secjedi/CyberDefense/blob/main/Images/zerologon/1.png)
 
 
 
