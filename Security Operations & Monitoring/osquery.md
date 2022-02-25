@@ -14,6 +14,12 @@ We need to query tables, we should find the table schema
 
 Looking at the above image, pid is the column, and BIGINT is the type. 
 
+If we need to check schema for another OS, we will need to use `--enable_foreign` command line flag
+More command_line flag here: https://osquery.readthedocs.io/en/latest/installation/cli-flags/ <br />
+
+
+
+
 
 
 
