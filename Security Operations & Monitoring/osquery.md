@@ -4,7 +4,7 @@ Fisrt command `osqueryi`
 This opens up and interactive sql-like shell
 ![alt text](https://github.com/secjedi/CyberDefense/blob/main/Images/osquery/7.png) <br />
 
-`.tables process` list available tables  that has the word proccess table in it
+`.tables process` list available tables  that has the word proccess table in it. <br />
 ![alt text](https://github.com/secjedi/CyberDefense/blob/main/Images/osquery/8.png) <br />
 
 We need to query tables, we should find the table schema
