@@ -7,5 +7,10 @@ We can monitor process running on a system via `Task Manager`. In the Details ta
 These columns easily aleter us about outliers. For example, looking at the svchost.exe process with PID 876.<br />
 ![alt text](https://github.com/secjedi/CyberDefense/blob/main/Images/zerologon/8.png) <br />
 
-If it is not what it appears to be at the Image path name and command line, we can perform a deeper analysis.
+So **Hint 1**: Check the command line and Image Path name and compare to normal behaviour. <br/>
+If it is not what it appears to be at the Image path name and command line, we can perform a deeper analysis. <br />
+
+The shortcoming for Task Manager is that it doesn't have the colum =n, parent process information, which is a powerful way to detect outliers. For example, if service.exe parent process is not service.exe, we perform a deeper analysis. <br />
+![alt text](https://github.com/secjedi/CyberDefense/blob/main/Images/zerologon/9png) <br />
+
 
