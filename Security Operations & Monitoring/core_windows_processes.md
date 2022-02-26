@@ -18,11 +18,14 @@ The shortcoming for Task Manager is that it doesn't have the colum =n, parent pr
 
 
 ##### Process Hacker and Process Explorer
-
-
 ![alt text](https://github.com/secjedi/CyberDefense/blob/main/Images/zerologon/10.png) <br />
+![alt text](https://github.com/secjedi/CyberDefense/blob/main/Images/zerologon/11.png) <br />
 
-Asides from task manager, I should be familiar with processes on a Windows system: `tasklist`, `Get-Process` or `ps` (PowerShell), and `wmic`.
+Asides from task manager, I should be familiar with processes on a Windows system: `tasklist`, `Get-Process` or `ps` (PowerShell), and `wmic`. <br />
+
+Use Process Explorer to view properties of System
+
+
 
 
 
