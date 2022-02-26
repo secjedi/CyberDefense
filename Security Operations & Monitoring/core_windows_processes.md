@@ -24,7 +24,9 @@ The shortcoming for Task Manager is that it doesn't have the colum =n, parent pr
 Asides from task manager, I should be familiar with processes on a Windows system: `tasklist`, `Get-Process` or `ps` (PowerShell), and `wmic`. <br />
 
 Use Process Explorer to view properties of System
-
+![alt text](https://github.com/secjedi/CyberDefense/blob/main/Images/zerologon/12.png) <br />
+We can see that a lot of info is unvaialbe so if we check with process hacker, we get some more information. <br />
+![alt text](https://github.com/secjedi/CyberDefense/blob/main/Images/zerologon/13.png) <br />
 
 
 
