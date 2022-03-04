@@ -1,0 +1,10 @@
+
+In process monnitor <br />
+Load Image means loading dll <br />
+we use filter name contains 'name of app started' <br />
+path --- ends -- with ----- .dll <br />
+result -----is ----- NOT SUCCESS <br />
+Also, we look for ame dlls being opened from multiple paths <br />
+every single instance that it doesnt find a dll is a possible thing is look <br />
+dll injection is mostly important when the app is running as admin because we need to have an access to the machine path <br />
+check if normal users can write on a path the app is calling the dll from <br />
