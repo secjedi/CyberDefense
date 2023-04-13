@@ -1,2 +1,2 @@
 # CyberDefense
-Understanding Defensive and Detective Strategies 
+Understanding Defensive and Detection Strategies 
